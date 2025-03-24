@@ -1,13 +1,14 @@
 {
   "name": "klausbot",
   "version": "1.0.0",
-  "description": "maine skurweboten",
+  "description": "Main bot for Klaus.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sex"
+    "discord",
+    "bot"
   ],
   "author": "Klaus Afton",
   "license": "ISC",
@@ -27,13 +28,15 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
     "mongoose": "^6.5.1",
-    "node": "^18.10.0",
     "node-fetch": "^3.3.1",
-    "node-fetch-commonjs": "^3.2.4",
     "opusscript": "^0.0.8",
-    "ytdl-core": "^4.11.3"
+    "ytdl-core": "^4.11.3",
+    "@syntect/node-android-arm64": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.21.0"
+  },
+  "engines": {
+    "node": ">=18.10.0"
   }
 }
