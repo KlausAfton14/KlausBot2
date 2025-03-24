@@ -1,0 +1,39 @@
+{
+  "name": "klausbot",
+  "version": "1.0.0",
+  "description": "maine skurweboten",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sex"
+  ],
+  "author": "Klaus Afton",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.1.2",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.1",
+    "@discordjs/voice": "^0.14.0",
+    "crypto": "^1.0.1",
+    "discord-fetch-all": "^3.0.2",
+    "discord-player": "^6.1.1",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "ffmpeg-static": "^5.1.0",
+    "hashlib": "^1.0.1",
+    "isomorphic-unfetch": "^4.0.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^6.5.1",
+    "node": "^18.10.0",
+    "node-fetch": "^3.3.1",
+    "node-fetch-commonjs": "^3.2.4",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.11.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
